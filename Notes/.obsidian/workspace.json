@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown (Re)Introduction.md",
+                "file": "Headers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown (Re)Introduction.md",
+                "file": "Natural Language Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown (Re)Introduction.md",
+                "file": "Natural Language Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown (Re)Introduction.md"
+                "file": "Natural Language Processing.md"
               }
             }
           }
@@ -159,10 +158,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e3cd0a03ea0020f",
+  "active": "57e219c3242a6139",
   "lastOpenFiles": [
+    "Design.md",
     "Natural Language Processing.md",
+    "Headers.md",
     "Markdown (Re)Introduction.md",
-    "Headers.md"
+    "Strings.md"
   ]
 }
