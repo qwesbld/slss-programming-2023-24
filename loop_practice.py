@@ -1,5 +1,5 @@
 # Loop Practice
-# Author: Ubial
+# Author: Brant
 # Date: 10 October 2023
 
 # Create a list of groceries
