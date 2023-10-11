@@ -82,5 +82,9 @@ hello
 
 # [[Design]]
 
-## Varaibles
+# [[Boolean]]
+
+# [[Conditionals]]
+
+
 
