@@ -35,3 +35,6 @@ grocery_str = "eggs milk cheese hotwheels"
 
 grocery_list = grocery_str.split(" ")
 ```
+
+
+

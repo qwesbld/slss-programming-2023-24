@@ -73,3 +73,20 @@ for name in names:
 	if name == "Jasmine Soto":
 		print("We found her!")
 ```
+
+# range(< number > ) function
+range () is a function that gives you a sequence of numbers starting at 0 by default. By default it also goes up by 1. It stops before the number that you provide as an input.
+
+```python
+range(100) -> sequence(0, 1, 2, ..., 99)
+
+```
+
+We can modify range `range()` to start, stop, and count up/down by different numbers
+
+```python
+range(<start>, <stop>,<step>)
+```
+# break
+
+Break allows us to stop the looping. Once break is reached, no other code underneath it in the for loop will run.

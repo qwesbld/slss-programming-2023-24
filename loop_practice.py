@@ -38,3 +38,6 @@ pyramid = ["*", "**", "***", "****", "*****", "******"]
 for row in pyramid:
     print(row)
 
+
+
+countdown = ["10", ]
