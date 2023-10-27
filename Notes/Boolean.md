@@ -1,4 +1,4 @@
-Booleans are a  [[Type]] of data that is either `True` or `False`
+ every types of boo Booleans are a  [[Type]] of data that is either `True` or `False`
 
 Booleans and [[Conditionals]] work hand-in-hand
 
