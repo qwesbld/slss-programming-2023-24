@@ -1,29 +1,42 @@
 # bubble tea popularity algorithm
-# asher
+# Brant
 # 2023-10-26
 
-# ask 5 users what their favorite bubble tea place is
-# prints out summary of data
+# Ask 5 users what their favourite bubble tea place is
+# Prints out a summary of the data
 
-# CONSTANTS
-NUM_RESPONDENTS = 5 # number of respondents
+# ------ CONSTANTS
 
-# keep track of a tally for each option
-like_count = {}
+NUM_RESPONDENTS = 10
 
-# repeat a number of times
+# ------
+
+# Like counters
+coco_likes = 0      # Initialize the variable to 0
+suntea_likes = 0
+chatime_likes = 0
+bubqueen_likes = 0
+
 for _ in range(NUM_RESPONDENTS):
-  # ask the user where their favorite place is
-  fave_place = input("what's your favorite bubble tea place? ").strip(".,!?").lower()
+    # Ask the user what their favourite place is
+    print("What's your favourite bubble tea place?")
+    fave_place = input().strip(",.?! ").lower()
 
-  # store it somewhere  
-  if fave_place in like_count:
-    like_count[fave_place] += 1
-  else:
-    like_count[fave_place] = 1
+    # Tally or counting algo
+    if fave_place == "coco":
+        coco_likes = coco_likes + 1
+    elif fave_place == "suntea":
+        suntea_likes += 1       # alternate to above
+    elif fave_place == "chatime":
+        chatime_likes += 1
+    elif fave_place == "bubble queen":
+        bubqueen_likes += 1
 
-# print a summary
-print("\nsummary\n=======")
-for place in sorted(like_count, key=like_count.get, reverse=True):
-  # include place, count, and percent
-  print(f"{place}: {like_count[place]} ({like_count[place] * 100 // NUM_RESPONDENTS}%)")
+# Print out a summary
+print(" ")
+print("Summary")
+print("=======")
+print(f"Coco: {coco_likes} votes | percentage {coco_likes / NUM_RESPONDENTS * 100}%")
+print(f"SunTea: {suntea_likes} votes | percentage {suntea_likes / NUM_RESPONDENTS * 100}%")
+print(f"Chatime: {chatime_likes} votes | percentage {chatime_likes / NUM_RESPONDENTS * 100}%")
+print(f"Bubble Queen: {bubqueen_likes} votes | percentage {bubqueen_likes / NUM_RESPONDENTS * 100}%")
