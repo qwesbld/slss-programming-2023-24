@@ -5,7 +5,7 @@
 # Ask 5 users what their favourite bubble tea place is
 # Prints out a summary of the data
 
-# ------ CONSTANTS
+# ------ CONSTANTS 
 
 NUM_RESPONDENTS = 5
 
@@ -39,8 +39,8 @@ for _ in range(NUM_RESPONDENTS):
 print(" ")
 print("Summary")
 print("=======")
-print(f"Coco: {coco_likes} votes | percentage {coco_likes / NUM_RESPONDENTS * 100}%")
-print(f"SunTea: {suntea_likes} votes | percentage {suntea_likes / NUM_RESPONDENTS * 100}%")
-print(f"Chatime: {chatime_likes} votes | percentage {chatime_likes / NUM_RESPONDENTS * 100}%")
-print(f"Bubble Queen: {bubqueen_likes} votes | percentage {bubqueen_likes / NUM_RESPONDENTS * 100}%")
-print(f"Unknown votes: {unknownvotes} votes | percentage {unknownvotes / NUM_RESPONDENTS * 100}%")
+print(f"Coco: {coco_likes} votes |  {coco_likes / NUM_RESPONDENTS * 100}%")
+print(f"SunTea: {suntea_likes} votes |  {suntea_likes / NUM_RESPONDENTS * 100}%")
+print(f"Chatime: {chatime_likes} votes |  {chatime_likes / NUM_RESPONDENTS * 100}%")
+print(f"Bubble Queen: {bubqueen_likes} votes |  {bubqueen_likes / NUM_RESPONDENTS * 100}%")
+print(f"Unknown votes: {unknownvotes} votes |  {unknownvotes / NUM_RESPONDENTS * 100}%")
