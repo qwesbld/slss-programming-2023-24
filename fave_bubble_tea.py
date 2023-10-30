@@ -7,7 +7,7 @@
 
 # ------ CONSTANTS
 
-NUM_RESPONDENTS = 10
+NUM_RESPONDENTS = 5
 
 # ------
 
@@ -16,6 +16,7 @@ coco_likes = 0      # Initialize the variable to 0
 suntea_likes = 0
 chatime_likes = 0
 bubqueen_likes = 0
+unknownvotes = 0
 
 for _ in range(NUM_RESPONDENTS):
     # Ask the user what their favourite place is
@@ -31,6 +32,8 @@ for _ in range(NUM_RESPONDENTS):
         chatime_likes += 1
     elif fave_place == "bubble queen":
         bubqueen_likes += 1
+    else:
+        unknownvotes += 1
 
 # Print out a summary
 print(" ")
@@ -40,3 +43,4 @@ print(f"Coco: {coco_likes} votes | percentage {coco_likes / NUM_RESPONDENTS * 10
 print(f"SunTea: {suntea_likes} votes | percentage {suntea_likes / NUM_RESPONDENTS * 100}%")
 print(f"Chatime: {chatime_likes} votes | percentage {chatime_likes / NUM_RESPONDENTS * 100}%")
 print(f"Bubble Queen: {bubqueen_likes} votes | percentage {bubqueen_likes / NUM_RESPONDENTS * 100}%")
+print(f"Unknown votes: {unknownvotes} votes | percentage {unknownvotes / NUM_RESPONDENTS * 100}%")
