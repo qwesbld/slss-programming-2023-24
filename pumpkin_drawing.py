@@ -28,6 +28,7 @@ carver.pendown()
 carver.forward(200)
 carver.pensize(2)
 
+    
 # Eyes
 def draw_eye(x, y):
     carver.penup()
@@ -36,6 +37,7 @@ def draw_eye(x, y):
     carver.begin_fill()
     carver.circle(20, 180)  # Half circle for a spooky look!
     carver.left(90)
+    carver.end_fill()
     carver.forward(40)
     carver.left(90)
     carver.circle(20, 180)
@@ -60,5 +62,21 @@ carver.begin_fill()
 carver.setheading(-60)  # Pointing downwards
 carver.circle(50, 120)  # Wide creepy smile
 carver.end_fill()
+
+# Green root (stem) on top
+carver.color("green")
+carver.penup()
+carver.setposition(-10, 100)
+carver.pendown()
+carver.begin_fill()
+carver.setheading(90)  # Point upwards
+carver.forward(30)
+carver.right(90)
+carver.forward(20)
+carver.right(90)
+carver.forward(30)
+carver.end_fill()
+
+
 
 turtle.done()
