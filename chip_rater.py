@@ -1,5 +1,5 @@
 # Chip Rater
-# Author: Ubial
+# Author: Brant
 # 1 November 2023
 
 # Interview people about their
