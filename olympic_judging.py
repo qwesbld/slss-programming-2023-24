@@ -1,7 +1,6 @@
 # Chatbot
 # Author: Brant
 # Date: 3 November 2023
-# How old are you in 2049
 
 # Greet the user
 print("Please answer the following questions based on the NBA Zion Williamson's dunk from 1 to 5.")
@@ -35,4 +34,4 @@ for question in questions:
 average_score = final_score / len(questions)
 
 # Present the results to the user
-print(f"The average score of this chip is: {average_score:.2f} / 5")
+print(f"The average score of this dunk is: {average_score:.2f} / 10")
