@@ -1,3 +1,10 @@
+---
+tags:
+  - notes
+  - slss
+  - y2023
+  - programming-level-1-2
+---
 # Headings
 We create headings in Markdown using hash (#) symbols
 To create subheadings, we can use multiple hash symbols
@@ -99,4 +106,3 @@ e.g.
 | Mr. Ubial   | Unaging    | All of them | Dad strength     |
 | Yourself    | Your age   | Your Sign   | Super strength   |
 
-# [[Lists]]

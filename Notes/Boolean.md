@@ -1,4 +1,4 @@
- every types of boo Booleans are a  [[Type]] of data that is either `True` or `False`
+Booleans are a  [[Type]] of data that is either `True` or `False`
 
 Booleans and [[Conditionals]] work hand-in-hand
 
@@ -84,4 +84,3 @@ if not sunny:
 ```
 
 To elaborate the case above, `not sunny` is the boolean operation. The `not` flips the boolean to the opposite value. Therefore, the code block will execute if and only if `sunny` is `False`.
-

@@ -72,21 +72,69 @@ names = ['Elizabeth Singleton', 'Raymond Mitchell', 'Steven Murphy', 'Daniel Ter
 for name in names:
 	if name == "Jasmine Soto":
 		print("We found her!")
+		break
+else:
+	print("We didn't find Jasmine Soto.")
 ```
 
-# range(< number > ) function
-range () is a function that gives you a sequence of numbers starting at 0 by default. By default it also goes up by 1. It stops before the number that you provide as an input.
+# Iterating *n* Number of Times
+
+We can iterate/loop for any number of times.
+In Python, we do it in a *strange* way.
 
 ```python
-range(100) -> sequence(0, 1, 2, ..., 99)
-
+for i in range(<positive integer>):
+	<code block>
 ```
 
-We can modify range `range()` to start, stop, and count up/down by different numbers
+e.g.
 
 ```python
-range(<start>, <stop>,<step>)
+# print out "Mr. Ubial is pretty cool" 20 times
+for _ in range(20):
+	print("Mr. Ubial is pretty cool")
 ```
-# break
 
-Break allows us to stop the looping. Once break is reached, no other code underneath it in the for loop will run.
+Recall that in the other way of looping (for `item` in `list`), that
+`item` points at the current item in the list.
+
+In this way of looping, that `item` thing shows us how many times
+we've looped since the beginning.
+
+For example, we can do something like this:
+
+```python
+# Repeat something 5 times and we want to keep track
+# of how many iterations we've completed
+
+for i in range(5):
+	print(i)
+```
+
+Simply put, `i` is a counter. It counts how many times we're looping.
+
+## `range(<number>)` function
+
+`range()` is a function that gives you a sequence of numbers starting at 0 by default. By default it also goes up by 1. It stops before the number that you provide as an input.
+
+```python
+range(100) -> Sequence(0, 1, 2, ..., 99)
+```
+
+We can modify `range()` to start, stop, and count up/down by different numbers.
+
+```python
+range(<start>, <stop>, <step>)
+```
+
+e.g.
+
+```python
+range(0, 100)     # Sequence(0, 1, ..., 99)
+range(-10, 10)    # Sequence(-10, -9, ..., 9)
+range(0, 100, 2)  # Sequence(0, 2, 4, ..., 98)
+range(100, 0, -1) # Sequence(100, 99, ..., 1)
+```
+# `break`
+
+Break allows us to **stop** the looping. Once `break` is reached, no other code underneath it in the for loop code block will run.
