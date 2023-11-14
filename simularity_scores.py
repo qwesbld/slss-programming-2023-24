@@ -27,8 +27,8 @@ similarity_score = 0
 
 # For each item in the first list
 for movie in Brants_fav_movies :
-    if movie in bens_fav_movies
-        simularity_score += 1
+    if movie in bens_fav_movies:
+        similarity_score += 1
 
 #print the results
 print (Brants_fav_movies, bens_fav_movies)
