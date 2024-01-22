@@ -11,7 +11,7 @@ burger = input("Would you like to buy a burger for $5? (Yes/No)").lower()
 fries = input("Would you like to buy fries for $3? (Yes/No)").lower()
 soda = input ("Would you like to buy a soda for $1.5? (Yes/No)").lower()
 
-# tore their answers
+# Store their answers
 total_price = 0
 
 if burger == "yes":
